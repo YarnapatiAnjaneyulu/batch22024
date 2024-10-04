@@ -1,3 +1,1 @@
-Hi team ,
-my name is Anjaneyulu
-Hello bro
+Hi team,this is f2.txt

@@ -16,7 +16,7 @@ pipeline {
           }
           
           lis1=[10,20,30,40]
-          for(ele in list1){
+          for(ele in lis1){
             println "my ele is ${ele}"
           }
           

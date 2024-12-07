@@ -5,6 +5,7 @@ pipeline {
   choice choices: ['dev', 'sit', 'uat', 'pt', 'preprod', 'prod'], 
   description: 'select the environment', name: 'ENV'
 }
+
  stages {
    stage("working with variables") {
      steps {
@@ -17,4 +18,4 @@ pipeline {
        }
      }
    } 
-}
+}      

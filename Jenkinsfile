@@ -2,7 +2,7 @@ pipeline {
  // agent server1/any/dockeragent/kubernetes
  agent any
  parameters {
-  choice choices: ['dev,sit,uat,pt,preprod,prod'], description: 'select the environment ', name: 'ENV'
+  choice choices: ['dev','sit','uat','pt','preprod','prod'], description: 'select the environment ', name: 'ENV'
 }
  stages {
    stage("working with variables") {

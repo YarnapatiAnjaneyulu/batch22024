@@ -11,7 +11,7 @@ pipeline {
             a = a + 1
           }
 
-          for(i=1;i<=10:i++) {
+          for(i=1;i<=10;i++) {
             println "value of i is ${i}"
           }
           

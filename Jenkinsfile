@@ -5,16 +5,13 @@ pipeline {
     stage("working with conditions") {
       steps {
         script {
-          a=10
-          b=20
-          if(a>b) {
-             println "value of a is ${a}"
-          }
-          else {
-            println "value of b is big ${b}"
-          }
+        a=1
+        while(a<=10) {
+          println "value of a is ${a}"
+          a = a + 1
         }
       }
+     }
     }
   }
 }

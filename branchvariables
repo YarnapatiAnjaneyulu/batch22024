@@ -1,0 +1,16 @@
+ pipeline {
+  // agent server1/any/dockeragent/kubernetes
+  agent any
+  stages {
+    stage("working with variables") {
+      steps {
+          script {
+            var1=100
+            println "var1 value is ${var1}"
+            println "WORKSPACE iS ${WORKSPACE}"
+            println "BUILD_NUMBER is ${BUILD_NUMBER}"
+          }
+        }
+      }
+    } 
+} 
